@@ -1,0 +1,18 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/*variaves de cor*/
+:root{
+    --notification:#9DE1FE;
+    --notification-txt:#384c56;
+    --background-cinza:#CCC;
+    --mensagem:#454545;
+    --nao-lida-verde:#09d261;
+    --background-msg:#E1DAD2;
+}

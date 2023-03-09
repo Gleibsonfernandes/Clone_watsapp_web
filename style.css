@@ -40,7 +40,7 @@
     position: relative;
     width: calc(100% - 400px);
     height: 100%;
-    background-image: url(./img/background_whats.png);
+    
     
 }
 
@@ -54,9 +54,11 @@
 
 /*campo-conversa*/
 .conteiner-conversa{
+    
     width: 100%;
     height: calc(100% - 120px);
-    background-image: url(./img/background_whats.png);
+    background-image: url(./img/bg-whats.png);
+    background-color: rgba(222, 184, 135, 0.404);
 }
 
 .campo-conversa{

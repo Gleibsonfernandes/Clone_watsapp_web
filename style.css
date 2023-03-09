@@ -16,3 +16,76 @@
     --nao-lida-verde:#09d261;
     --background-msg:#E1DAD2;
 }
+/*conteiner geral*/
+.conteiner{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+
+/*aside*/
+.aside{
+    width: 400px;
+    height: 100em;
+    background-color: #384c56;
+    position: fixed;
+}
+
+/*chat-conteiner*/
+
+.chat-conteiner{
+    left: 400px;
+    position: relative;
+    width: calc(100% - 400px);
+    height: 100%;
+    background-image: url(./img/background_whats.png);
+    
+}
+
+/*chat-navbar*/
+.chat-navbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #9DE1FE;
+}
+
+/*campo-conversa*/
+.conteiner-conversa{
+    width: 100%;
+    height: calc(100% - 120px);
+    background-image: url(./img/background_whats.png);
+}
+
+.campo-conversa{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 30em;
+   
+    padding-bottom: 10em;
+}
+.txt-enviado{
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;
+    background-color: #09d261;
+    
+}
+.txt-recebido{
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;
+    background-color: coral;
+    text-align: end;
+}
+
+/*campo-msg*/
+.campo-msg{
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    background-color: #9DE1FE;
+    position: fixed;
+}

@@ -17,12 +17,48 @@
     <title>Whatsapp Web</title>
 
 </head>
-<body>
+<body id="body" > 
     <div class="conteiner">
         <aside class="aside">
-            <h1>ola</h1>
+
+            <div class="cabecalho-aside">
+                <div class="cabecalho-img">
+                    <img class="img-avatar-cabecalho" src="./img/avatar1.png" alt="img-perfil">
+                </div><!--cabecaho img-->
+                
+                <div class="lista-cabecalho">
+                    <ul>
+                    <a href="#"><li><img src="./img/loading.png" alt=""></li></a>
+                    <a href="#"><li><img src="./img/balao-de-conversa-arredondada.png" alt=""></li></a>
+                    <a href="#"><li><img src="./img/tres-pontos.png" alt=""></li></a>
+                    </ul>
+                </div><!--lista cabecalho-->
+                <div class="clear"></div>
+                
+            </div><!--cabecalho-aside-->
+
+            <div class="notificacao-aside" >
+                <div class="notificacao-simbolo">
+                    <img src="./img/silencioso.png" alt="">
+                </div><!--notificacao-conteudo-->
+                <div class="notificacao-conteudo">
+                    <p>Receba notificações de novas mensagens
+
+                        Ativar notificações na área de trabalho! </p>
+                </div><!--notificacao-conteudo-->
+            </div><!--notificacao-aside-->
+            <div class="procura-aside">
+                <div id="procura-aside-cont" onclick="borda()">
+                    <div class="procura-simbolo">
+                        <img src="./img/lupa.png" alt="">
+                    </div><!--procura-simbolo-->
+                    <div class="procura-input">
+                        <input type="text" placeholder="Procurar ou começar uma nova conversa">
+                    </div><!--procura-input-->
+                </div><!--procura-aside-cont-->
+            </div><!--procura-aside-->
         </aside><!--aside-->
-        <div class="chat-conteiner">
+        <div class="chat-conteiner" onclick="outBorder()">
 
                 <div class="chat-navbar">
 
@@ -50,4 +86,5 @@
         </div><!--chat-conteiner-->
     </div><!--conteiner-->
 </body>
+<script src="script.js"></script>
 </html>

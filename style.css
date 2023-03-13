@@ -11,7 +11,8 @@
 :root{
     --notification:#9DE1FE;
     --notification-txt:#384c56;
-    --background-cinza:#CCC;
+    --background-cinza:#EEE;
+    --backgriund-cinza-claro:#ccc;
     --mensagem:#454545;
     --nao-lida-verde:#09d261;
     --background-msg:#E1DAD2;
@@ -23,7 +24,10 @@
     position: relative;
     
 }
-
+/*clear float*/
+.clear{
+    clear: both;
+}
 
 /*aside*/
 .aside{
@@ -90,4 +94,135 @@
     bottom: 0px;
     background-color: #9DE1FE;
     position: fixed;
+}
+
+/*cabecalho-aside*/
+.cabecalho-aside{
+    width: 100%;
+    height: auto;
+    background-color: var(--background-cinza);
+}
+
+.cabecalho-img{
+    width: 30%;
+    float: left;
+
+}
+.cabecalho-img .img-avatar-cabecalho{
+    
+    width: 55px;
+    height:55px;
+    background-color: var(--backgriund-cinza-claro);
+    border-radius: 50%;
+    padding: 1px;
+    margin: 7px;
+}
+
+
+.lista-cabecalho{
+    
+    float: right;
+    
+}
+
+.lista-cabecalho ul{
+
+    margin-top: 20px;
+    margin-right: 2px;
+    list-style: none;
+    
+}
+.lista-cabecalho ul li img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.cabecalho-aside ul li{
+
+    margin-right: 25px;
+    display: inline-block;
+}
+
+/*notificacao-aside*/
+.notificacao-aside{
+    width: 100%;
+    height: 100px;
+    background-color: var(--notification);
+    display: flex;
+}
+
+.notificacao-simbolo{
+    display: flex;
+    width: 23%;
+    height: 100%;
+    align-items: center;
+}
+
+.notificacao-simbolo img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.notificacao-conteudo{
+    width: 77%;
+    padding: 10px 5px;
+}
+
+.notificacao-conteudo p{
+    margin-top: 15px;
+    text-align: center;
+    color: var(--notification-txt);
+    font-size: 13px;
+
+}
+/*procura-aside*/
+
+.procura-aside{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: white;
+
+}
+#procura-aside-cont{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 70%;
+    background-color: var(--backgriund-cinza-claro);
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+
+.procura-simbolo{
+    
+    display: flex;
+    align-items: center;
+    width: 20%;
+        
+}
+.procura-simbolo img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+.procura-input{
+    width: 90%;
+    }
+.procura-input input[type=text]{
+    width: 90%;
+    height: 100%;
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: var(--backgriund-cinza-claro);
 }
